@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * print_square - draws a square
  * @size: length and width of square
@@ -11,7 +10,7 @@ void print_square(int size)
 {
 	int row;
 	int column;
-
+	
 	if (size > 0)
 	{
 		for (row = 0; row < size; row++)
@@ -28,3 +27,4 @@ void print_square(int size)
 		_putchar('\n');
 	}
 }
+
