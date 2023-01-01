@@ -1,4 +1,6 @@
 #include "main.h"
+#include <stdio.h>
+
 /*
  * add - adds two integers
  * @n1: integer 1
