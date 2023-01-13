@@ -111,19 +111,18 @@ void multiply(char *s1, char *s2)
 
 int main(int argc, char *argv[])
 {
-	< < < < < < < HEAD
-		char *n1 = argv[1];
+	< < < < < < < HEAD char *n1 = argv[1];
 	char *n2 = argv[2];
 
 	if (argc != 3 || check_number(n1) || check_number(n2))
 		error_exit();
 	if (*n1 == '0' || *n2 == '0')
 		== == == =
-		unsigned long mul;
+					 unsigned long mul;
 	int i, j;
 
 	if (argc != 3)
-		> > > > > > > d83c05f2981de372b871f1c4f2723ac6e0247e0e
+		>>>>>>> d83c05f2981de372b871f1c4f2723ac6e0247e0e
 		{
 			_putchar('0');
 			_putchar('\n');
@@ -132,4 +131,3 @@ int main(int argc, char *argv[])
 		multiply(n1, n2);
 	return (0);
 }
-
